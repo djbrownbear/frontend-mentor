@@ -9,15 +9,21 @@ html {
   height: 100vh;
 }
 
+@font-face {
+  font-family: Outfit;
+  src: url(../fonts/Outfit/Outfit-VariableFont_wght.ttf);
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: Outfit, sans-serif;
+  font-size: 15px;
 }
 
 // Colors 
-$primary: #202020;
-$secondary: #8e8f94;
-$card-bg: #fefefe;
-$bg: #d9e1ee;
+$primary: hsl(218, 44%, 22%);
+$secondary: hsl(220, 15%, 55%);
+$card-bg: hsl(0, 0%, 100%);
+$bg: hsl(212, 45%, 89%);
 
 main {
   display: flex;
@@ -41,11 +47,13 @@ main {
   text-align: center;
   border-radius: 2em;
   box-shadow: outset 0 0 10px rgba(0, 0, 0, 0.1);
+  font-weight: 400;
 
   h1 {
     color: $primary;
     margin: 1em auto;
-    font-size: 1.3em;
+    font-size: 1.4em;
+    font-weight: 700;
   }
 
   p {
