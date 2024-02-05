@@ -23,7 +23,7 @@ main {
 }
 
 .card {
-  margin: 4em auto;
+  margin: auto;
   background-color: #fefefe;
   display: flex;
   flex-direction: column;
@@ -58,6 +58,14 @@ main {
   .card {
     max-width: 90%;
   }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 /*# sourceMappingURL=style.css.map */
